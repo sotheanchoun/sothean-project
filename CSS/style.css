@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/2/71/coffee-cup-heart-good-morning-hot-romantic-kofe-chashka-utro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 90%; */
+    height: 70vh;
+  }
+
+
+nav {
+    background: #088331;
+    height: 60px;
+    width: 100%;
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 5px 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover {
+    background:orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+}
+.content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100%;
+    line-height: 25px;
+}
+button {
+    width: 250px;
+    padding: 12px 0; 
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 23px;
+    border: 2px solid rgb(70, 221, 221);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+a {
+    color: white;
+}
+span {
+    background: teal;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span {
+    width: 100%;
+}
+button:hover {
+    border: none;
+}
+
+footer {
+    background: gray;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: 5em;
+    margin-top: 20px;
+}
+/* .icons {
+    padding: 10;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+} */
+/* 
+li a {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+} */
+
+.icons >a > i {
+    padding: 30px;
+    justify-content:center;
+    align-items: center;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   margin-bottom: 10%;
+    
+    
+    
+} 
+
+
+
+
+
+
+/* home */
+.text img {
+    width: 100%;
+    margin-top: 59.7%;
+    height: 90vh;
+    padding: 6px;
+}
+h4 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+}
+p {
+    margin-left: 50px;
+}
+.ab img {
+    width: 20%;
+    height: 200px;
+    margin-left: 50px;
+}
+.cd img {
+    width: 20%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* about */
+    .word img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+    .ef img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+    .gh img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .thean img {
+        width: 100%;
+        height: 141vh;
+    }
+    .c img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        margin-left: -1px;
+        margin-bottom: 20px; 
+        margin-top: 5px; 
+    }
+    /* footer {
+        margin-top: 20px;
+        height: 60vh;
+        background: gray;
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: -1px;
+    } */
+
+
+
+
+    /* contact */
+    .char img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        margin-bottom: 20px;
+        /* margin-top: 10px; */
+    }
+    .ij img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .kl img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+    }
+    .h img{
+        width: 100%;
+        height: 141vh;
+    }
+    iframe {
+    margin-top: 50px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 100px;
+    height: 70vh;
+    margin-top: 10px;
+    }
+    .container {
+        background: gray;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    h3 {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color:teal;
+        text-align: center;
+    }
+    .first{
+        width: 46%;
+        padding:1%;
+        margin-left: 30%;
+        border: none;
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 15px;
+    }
+   
+    .email {
+        width: 46%;
+        padding:1%;
+        margin-left: 30%;
+        border: none;
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 15px;
+    }
+    .password {
+        width: 46%;
+        padding:1%;
+        margin-left: 30%;
+        border: none;
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 15px;
+        
+    }
+   
+    input[type="submit"] {
+        text-transform: uppercase;
+        background: teal;
+        border: none;
+        width: 46%;
+        padding: 7px;
+        border-radius: 40px;
+        color:white;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        padding: 1%;
+
+    }
+    .l img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        margin-left: -1px;
+        margin-bottom: 30px;
+         margin-top: 5px; 
+    }
+   
+    
+
+
+
+    /* hobbies */
+    .str img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        /* margin-top: 10px; */
+
+    }
+    .mn img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .op img {
+        width: 20%;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .c img {
+        width: 100%;
+        height: 90vh;
+        padding: 6px;
+        margin-left: -1px;
+        /* margin-bottom: 20px;  */
+        margin-top: 15px; 
+    }
+    .qr img {
+        width: 49%;
+        margin-left: 6px;
+        height: 300px;
+        padding: 2px;
+    }
+
+    
